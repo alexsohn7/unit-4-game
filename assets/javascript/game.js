@@ -4,11 +4,6 @@ $(document).ready(function() {
 var randomNumber = Math.floor(Math.random() * 121) +19;
 $("#randomNumber").append(randomNumber);
 
-function chooseRandomNumber () {
-    var randomNumber = Math.floor(Math.random() * 121) + 19;
-} 
-
-
 //Display totalScore on page in score div
 var totalScore = 0;
 $("#score").append(totalScore);
@@ -85,10 +80,6 @@ else if (totalScore > randomNumber ) {
     $("#losses").html(losses);
     alert = "You lost!!";
     $("#alert").html(alert);
-}
-
-if (totalScore === randomNumber || totalScore > randomNumber) {
-
 }
 
 })
