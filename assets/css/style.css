@@ -1,0 +1,23 @@
+div {
+    border: solid 1px;
+}
+
+.title {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+h1 {
+    position: relative;
+    left: 5%;
+    margin-bottom: 0px;
+    
+}
+
+.directions {
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   padding: 20px;
+}
+
+img {
+    height: 200px;
+}
